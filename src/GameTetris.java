@@ -60,7 +60,7 @@ public class GameTetris {
 		frame.setSize(FIELD_WIDTH*BLOCK_SIZE+ FIELD_DX,FIELD_HEIGTH*BLOCK_SIZE+FIELD_DY);
 		frame.setLocation(START_LOCATION, START_LOCATION);
 		frame.setResizable(false);
-		
+		canvasPanel.setBackground(Color.BLACK);
 		frame.setVisible(true);
 		
 	}
